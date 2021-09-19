@@ -719,6 +719,9 @@ nav {
        font-size: smaller;
        margin:2px ;
    }
+   .released-songs {
+       width: 70vw;
+   }
 }
 
 

@@ -164,12 +164,13 @@ nav {
     /* align-items: center; */
     margin-bottom: 25px;
     border-radius: 4px;
+    
    
 
 }
 
 .left-side-img {
-  min-width: 25vw;
+  width: 25vw;
   height: 50vh;
   
   background: url("https://static.independent.co.uk/2020/12/18/13/newFile-6.jpg?width=982&height=726&auto=webp&quality=75") no-repeat;
@@ -198,6 +199,7 @@ box-shadow: -4px -78px 106px 23px rgb(19, 19, 58) inset;
     align-items: flex-start;
     justify-content: space-evenly;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 
@@ -207,6 +209,7 @@ box-shadow: -4px -78px 106px 23px rgb(19, 19, 58) inset;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap:wrap ;
 }
 
 .headings .main-heading {
@@ -504,7 +507,9 @@ box-shadow: -4px -78px 106px 23px rgb(19, 19, 58) inset;
 
 /* Media Queries */
 @media only screen and (max-width: 768px) {
-
+    #aside-2 {
+        display: none;
+    }
     /* NAV */
     .left-nav {
         min-width: 90vw;
@@ -517,7 +522,62 @@ box-shadow: -4px -78px 106px 23px rgb(19, 19, 58) inset;
     .input {
         width: 150px;
     }
+    .big-box {
+    background-color: rgb(19, 19, 58);
+    width: 95vw;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-bottom: 25px;
+    border-radius: 4px;
+    flex-wrap: wrap;
+       
+        
+    }
+    .big-box .left-side-img {
+        height: 225px;
+        width: 275px;
+        opacity: 1;
+    }
+    .big-box .right-side-content {
+        width: 100%;
+    }
+    .song-box {
+    margin-top: 15px;
+    width: 90vw;
+    min-height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(26, 26, 58);
 }
+
+
+#music-player-bottom .left-footer img {
+     height: 50px;
+     width: 50px;
+ }
+  #music-player-bottom{
+      width: 95vw;
+  }
+
+  #music-player-bottom .left-footer p {
+      font-size: smaller;
+  }
+   #music-player-bottom .left-footer i {
+       
+       display: none;
+   }
+  #music-player-bottom .mid-footer i{
+      font-size: small;
+  }
+   #music-player-bottom .right-footer i{
+    
+       font-size: smaller;
+       margin:2px ;
+   }
+ }
 
 /* Right Aside */
 .aside-2 {
