@@ -654,13 +654,22 @@ nav {
  }
 /* Media Queries */
 @media only screen and (max-width: 768px) {
-
+    body {
+        width: 95vw;
+        overflow-x: hidden;
+    }
+     #aside-2 {
+        display: none;
+    }
+    .aside-1 {
+        min-width: 95vw;
+    }
     /* NAV */
     .left-nav {
         min-width: 90vw;
     }
     .right-nav {
-        min-width: 100vw;
+        min-width: 95vw;
         margin: 5px;
 
     }
@@ -687,6 +696,29 @@ nav {
         height: 100px;
         width: 100px;
     }
+ #music-player-bottom .left-footer img {
+     height: 50px;
+     width: 50px;
+ }
+  #music-player-bottom{
+      width: 95vw;
+  }
+
+  #music-player-bottom .left-footer p {
+      font-size: smaller;
+  }
+   #music-player-bottom .left-footer i {
+       
+       display: none;
+   }
+  #music-player-bottom .mid-footer i{
+      font-size: small;
+  }
+   #music-player-bottom .right-footer i{
+    
+       font-size: smaller;
+       margin:2px ;
+   }
 }
 
 
