@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist Name</title>
+    <link rel="stylesheet" href="landingPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+        <!-- Responsive Navigation -->
+        <nav>
+            <div class="left-nav">
+                <div class="item-1">
+                    <!--  <img src="https://images.unsplash.com/photo-1611339555312-e607c8352fd7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjR8fGljb25zfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60alt=""> -->
+                    <a href="index.html"><img src="https://image.shutterstock.com/image-vector/vector-logo-music-600w-764231404.jpg" class="img"
+                        alt=""></a>
+                    <p>Ninjas<br>Studio</p>
+                   
+                </div>
+                <div class="item-2">
+                    <a href="#favourites">Favourites</a>
+                </div>
+            </div>
+            <div class="right-nav">
+                <div class="input-box">
+                    <i class="fas fa-search icon left-icon"></i>
+                    <input type="text" class="input" placeholder="Search here">
+                    <i class="fas fa-microphone icon right-icon"></i>
+                    </input>
+                </div>
+                <div class="bell-icon">
+                    <i class="fas fa-bell bell"></i>
+                </div>
+                <div class="user-img">
+                    <img src="https://image.flaticon.com/icons/png/512/3135/3135715.png" class="img" alt="">
+                </div>
+            </div>
+        </nav>
+
+        <!-- main body  -->
+        <div class="main">
+            <aside class="aside-1">
+                <div class="big-box">
+                    <div class="left-side-img">
+                 </div>
+                    <div class="right-side-content">
+                        <div class="headings">
+                            <p class="main-heading">
+                                Eminem <br>
+                                <span>
+                                    American Rapper
+                                </span>
+                            </p>
+                            <p class="mini-heading">
+                                1,00,00,000 folllowers
+                            </p>
+                        </div>
+
+                        <div class="main-body">
+                            Marshall Bruce Mathers III (born October 17, 1972), known professionally as Eminem (/ˌɛmɪˈnɛm/; formerly stylized as
+                            EMINƎM), is an American rapper, songwriter, and record producer. Eminem is among the best-selling music artists of all
+                            time, with estimated worldwide sales of over 220 million records. He is credited with popularizing hip hop in Middle
+                            America and is critically acclaimed as one of the greatest rappers of all time
+                        </div>
+
+                        <div class="buttons">
+                            <div class="gradient-div">
+                                <a href="#music-player-bottom"><button class="gradient">Play All</button></a>
+                                <p>289 tracks | 14 albums</p>
+                            </div>
+                            
+                            <button class="transparent">Follow</button>
+                        </div>
+                    </div>
+                </div>
+            <a href="#music-player-bottom"> <div class="song-box">
+                    <div class="song-info">
+                        <p class="num">01</p>
+                        <img src="https://rtvc-assets-radionica3.s3.amazonaws.com/s3fs-public/styles/image_750x424/public/senalradionica/articulo-noticia/galeriaimagen/08f61c52357dcc6d2503bfea790efe4d.jpg?itok=kkFe3eaW" alt="">
+                        <p class="album">Lose Yourself<br><span>8 mile</span></p>
+                    </div>
+                    <div class="icons">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+                </a>
+               
+                <a href="#music-player-bottom"><div class="song-box">
+                    <div class="song-info">
+                        <p class="num">02</p>
+                        <img src="https://townsquare.media/site/812/files/2018/10/Eminem-Venom.jpg"
+                            alt="">
+                        <p class="album">Venom<br><span>Kamikaze</span></p>
+                    </div>
+                    <div class="icons">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+                </a>
+                <a href="#music-player-bottom"><div class="song-box">
+                    <div class="song-info">
+                        <p class="num">03</p>
+                        <img src="data:image/jpeg;base64,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"
+                            alt="">
+                        <p class="album">The Real Slim Shady<br><span>The Marshal Mathers LP</span></p>
+                    </div>
+                    <div class="icons">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+                </a>
+                <a href="#music-player-bottom"><div class="song-box">
+                    <div class="song-info">
+                        <p class="num">04</p>
+                        <img src="https://townsquare.media/site/812/files/2021/02/Eminem-Rap-God-music-video.jpg?w=1200"
+                            alt="">
+                        <p class="album">Rap God<br><span>The Marshal Mathers LP</span></p>
+                    </div>
+                    <div class="icons">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+                </a>
+            <a href="#music-player-bottom"><div class="song-box">
+                <div class="song-info">
+                    <p class="num">05</p>
+                    <img src="https://m.media-amazon.com/images/M/MV5BMmU3MWFhZjUtZTdhYi00NjQ2LWI0ZTYtYWYzMTMwZWQxM2JjXkEyXkFqcGdeQXVyNDg4MjkzNDk@._V1_.jpg"
+                        alt="">
+                    <p class="album">Love The Way You Lie<br><span>Recovery</span></p>
+                </div>
+                <div class="icons">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+            </a>
+            <a href="#music-player-bottom"><div class="song-box">
+                <div class="song-info">
+                    <p class="num">06</p>
+                    <img src="https://www.eminem.com/sites/g/files/aaj4806/f/styles/suzuki_opengraph/public/media-youtube/YVkUvmDQ3HY.jpg?itok=dxspA7vu"
+                        alt="">
+                    <p class="album">Without Me<br><span>The Eminem Show</span></p>
+                </div>
+                <div class="icons">
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+            </a>
+                <a href="#music-player-bottom"><div class="song-box">
+                    <div class="song-info">
+                        <p class="num">07</p>
+                        <img src="https://m.media-amazon.com/images/M/MV5BMDg1NTY0MjItZDk3NS00M2JiLWJmZjgtMTE3Mjg4MTdmOGE5XkEyXkFqcGdeQXVyNzU3Nzk4MDQ@._V1_.jpg"
+                            alt="">
+                        <p class="album">Not Afraid<br><span>Hits June 10</span></p>
+                    </div>
+                    <div class="icons">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+                </a>
+                <a href="#music-player-bottom"><div class="song-box">
+                    <div class="song-info">
+                        <p class="num">08</p>
+                        <img src="https://hiphop24x7.com/wp-content/uploads/2021/01/On-This-Day-22-Years-Ago-Eminem-Released-My-Name-Is-As-First-Single-From-His-First-Major-Label-Album.jpg"
+                            alt="">
+                        <p class="album">My Name is<br><span>The Slim Shady LP</span></p>
+                    </div>
+                    <div class="icons">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+                </a>
+                <a href="#music-player-bottom"><div class="song-box">
+                    <div class="song-info">
+                        <p class="num">09</p>
+                        <img src="https://i1.sndcdn.com/artworks-000072263734-b4172l-t500x500.jpg"
+                            alt="">
+                        <p class="album">Mockingbird<br><span>Encore</span></p>
+                    </div>
+                    <div class="icons">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+                </a>
+                <a href="#music-player-bottom"><div class="song-box">
+                    <div class="song-info">
+                        <p class="num">10</p>
+                        <img src="https://i1.sndcdn.com/artworks-s3WEIHzICABO082S-wVmy1w-t500x500.jpg"
+                            alt="">
+                        <p class="album">Till I Collapse<br><span>The Eminem Show</span></p>
+                    </div>
+                    <div class="icons">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+                </a>
+            <a href="#music-player-bottom"> <div class="song-box">
+                    <div class="song-info">
+                        <p class="num">11</p>
+                        <img src="https://upload.wikimedia.org/wikipedia/en/1/15/Eminem_Killshot.jpg"
+                            alt="">
+                        <p class="album">Killshot<br><span>Killshot</span></p>
+                    </div>
+                    <div class="icons">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+                </a>
+                <a href="#music-player-bottom"><div class="song-box">
+                    <div class="song-info">
+                        <p class="num">12</p>
+                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/01/The_Monster_Tour_poster.png/220px-The_Monster_Tour_poster.png" alt="">
+                        <p class="album">The Monster<br><span>The Marshal Mathers LP 2</span></p>
+                    </div>
+                    <div class="icons">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+                </a>
+                    <a href="#music-player-bottom"><div class="song-box">
+                       <div class="song-info">
+                                <p class="num">13</p>                                        
+                                <img src="https://upload.wikimedia.org/wikipedia/en/6/60/Recovery_Album_Cover.jpg" alt="">
+                                        <p class="album">Space Bound<br><span>Recovery</span></p>
+                                    </div>
+                                    <div class="icons">
+                                        <i class="far fa-heart"></i>
+                                        <i class="fas fa-plus"></i>
+                                    </div>
+                                </div>
+                                </a>
+            </aside>
+        
+        
+<!-- Right side / QUEUE -->
+<aside class="aside-2">
+    <div class="similar-artists">
+        <div class="queue-headings">
+            <h1>Similar Artists</h1>
+            <div class="mini-heading">
+                <h4>View All</h4>
+                <i class="fas fa-caret-down"></i>
+                <div class="floating-queue" id="floating-q">
+                    <div class="up">Artists</div>
+                    <div>Hit Songs</div>
+                </div>
+            </div>
+        </div>
+        <div class="releases">
+        
+            <a href="#music-player-bottom">
+                <div class="released-songs">
+                    <img id="opa"
+                        src="https://cdn.vox-cdn.com/thumbor/Ndgmp6Yf-uO1SV0PoJ7LJ3ceovc=/0x0:882x1044/1200x800/filters:focal(420x357:560x497)/cdn.vox-cdn.com/uploads/chorus_image/image/65524194/Screen_Shot_2019_10_22_at_7.28.46_AM.0.png"
+                        alt="">
+                    <p>Juice WRLD<br><span>American Rapper</span></p>
+                    <div class="floating-div-btn">
+                        <i class="fas fa-ellipsis-h" id="floating-div-btn"></i>
+                        <br>
+                        <span id="time">3:21</span>
+                    </div>
+                    <div class="play-btn">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div class="floating-div-1">
+        
+                    </div>
+                </div>
+            </a>
+            <a href="#music-player-bottom">
+                <div class="released-songs">
+                    <img id="opa"
+                        src="https://s.abcnews.com/images/Nightline/abc_ntl_mackelmore_130610_wg.jpg"
+                        alt="">
+                    <p>Macklemore<br><span>American Rapper</span></p>
+                    <div class="floating-div-btn">
+                        <i class="fas fa-ellipsis-h" id="floating-div-btn"></i>
+                        <br>
+                        <span id="time">3:21</span>
+                    </div>
+                    <div class="play-btn">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div class="floating-div-1">
+        
+                    </div>
+                </div>
+            </a>
+        
+            <a href="#music-player-bottom">
+                <div class="released-songs">
+                    <img id="opa"
+                        src="https://variety.com/wp-content/uploads/2020/07/ap_19206704285722.jpg"
+                        alt="">
+                    <p>Drake<br><span>American Rapper</span></p>
+                    <div class="floating-div-btn">
+                        <i class="fas fa-ellipsis-h" id="floating-div-btn"></i>
+                        <br>
+                        <span id="time">3:21</span>
+                    </div>
+                    <div class="play-btn">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div class="floating-div-1">
+        
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- Queue-headings -->
+    <div class="queue-headings">
+        <h1>Queue</h1>
+        <div class="mini-heading">
+            <h4>Queue</h4>
+            <i class="fas fa-caret-down"></i>
+            <div class="floating-queue" id="floating-q">
+                <div class="up">Playlists</div>
+                <div>Favourite Songs</div>
+            </div>
+        </div>
+    </div>
+    <!-- Queue Songs using same classes as of footer -->
+    <div class="left-footer" id="queue-songs">
+        <div class="left-name">
+            <p class="start">01</p>
+            <img src="https://i.scdn.co/image/ab6761610000e5eb80c7323d8b64397c278f86df" alt="">
+            <p>No Judgement<br><span>Niall Horan</span></p>
+        </div>
+        <div class="right-icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-ban"></i>
+        </div>
+
+    </div>
+
+    <div class="left-footer" id="queue-songs">
+        <div class="left-name">
+            <p class="start">02</p>
+            <img src="https://upload.wikimedia.org/wikipedia/en/2/2e/Lewis_Capaldi_-_Before_You_Go.png" alt="">
+            <p>Before You Go<br><span>Lewis Calpadi</span></p>
+        </div>
+        <div class="right-icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-ban"></i>
+        </div>
+
+    </div>
+    <div class="left-footer" id="queue-songs">
+        <div class="left-name">
+            <p class="start">03</p>
+            <img src="https://upload.wikimedia.org/wikipedia/en/0/0c/The_Kid_Laroi_and_Justin_Bieber_-_Stay.png" alt="">
+            <p>Stay<br><span>Kid Laroi</span></p>
+        </div>
+        <div class="right-icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-ban"></i>
+        </div>
+
+    </div>
+    <div class="left-footer" id="queue-songs">
+        <div class="left-name">
+            <p class="start">04</p>
+            <img src="https://i.scdn.co/image/ab6761610000e5eb12a2ef08d00dd7451a6dbed6" alt="">
+            <p>Castle On The Hill<br><span>Ed Sheeran</span></p>
+        </div>
+        <div class="right-icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-ban"></i>
+        </div>
+
+    </div>
+    <div class="left-footer" id="queue-songs">
+        <div class="left-name">
+            <p class="start">05</p>
+            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/harrystylesinsta-1575649232.jpg"
+                alt="">
+            <p>Adore You<br><span>Harry Styles</span></p>
+        </div>
+        <div class="right-icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-ban"></i>
+        </div>
+
+    </div>
+    <div class="left-footer" id="queue-songs">
+        <div class="left-name">
+            <p class="start">06</p>
+            <img src="https://media.npr.org/assets/music/news/2010/06/eminem-52893634f7c035450a7b5ff2e040cacb4012395e.jpg"
+                alt="">
+            <p>Lose Yourself<br><span>Eminem</span></p>
+        </div>
+        <div class="right-icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-ban"></i>
+        </div>
+
+    </div>
+    <div class="left-footer" id="queue-songs">
+        <div class="left-name">
+            <p class="start">07</p>
+            <img src="https://airows.com/.image/t_share/MTI5MDAyODE2ODI3MDcwOTQy/get-lucky-daft-punk.png" alt="">
+            <p>Get Lucky<br><span>Daft Punk</span></p>
+        </div>
+        <div class="right-icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-ban"></i>
+        </div>
+
+    </div>
+    <div class="left-footer" id="queue-songs">
+        <div class="left-name">
+            <p class="start">08</p>
+            <img src="https://images.genius.com/5cb318355eefd4b39e1476aa11ab827f.1000x1000x1.jpg" alt="">
+            <p>Teeth<br><span>5SOS</span></p>
+        </div>
+        <div class="right-icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-ban"></i>
+        </div>
+
+    </div>
+    <div class="left-footer" id="queue-songs">
+        <div class="left-name">
+            <p class="start">09</p>
+            <img src="https://i1.sndcdn.com/avatars-STV7RA23UO6MrSWa-JqDxBQ-t500x500.jpg" alt="">
+            <p>Insane<br><span>AP Dhillon</span></p>
+        </div>
+        <div class="right-icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-ban"></i>
+        </div>
+
+    </div>
+    <div class="left-footer" id="queue-songs">
+        <div class="left-name">
+            <p class="start">10</p>
+            <img src="https://i1.sndcdn.com/avatars-000426850401-l8r6cg-t500x500.jpg" alt="">
+            <p>Just You and I<br><span>Tom Walker</span></p>
+        </div>
+        <div class="right-icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-ban"></i>
+        </div>
+
+    </div>
+    <div class="left-footer" id="queue-songs">
+        <div class="left-name">
+            <p class="start">11</p>
+            <img src="https://mtv.mtvnimages.com/uri/mgid:ao:image:mtv.com:109878?quality=0.8&format=jpg&width=1440&height=810&.jpg"
+                alt="">
+            <p>Night Changes<br><span>One Direction</span></p>
+        </div>
+        <div class="right-icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-ban"></i>
+        </div>
+
+    </div>
+    <div class="left-footer" id="queue-songs">
+        <div class="left-name">
+            <p class="start">12</p>
+            <img src="https://i.scdn.co/image/ab67616d0000b2730ee3a8b1f9762f0a1e69385d" alt="">
+            <p>Rude<br><span>Magic</span></p>
+        </div>
+        <div class="right-icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-ban"></i>
+        </div>
+
+    </div>
+    <div class="left-footer" id="queue-songs">
+        <div class="left-name">
+            <p class="start">13</p>
+            <img src="https://m.media-amazon.com/images/M/MV5BYWM0Y2Y3ZTEtNTNmZC00MDIwLWEyZWQtYjZiM2Y0ODljMWViXkEyXkFqcGdeQXVyNDQ5MDYzMTk@._V1_FMjpg_UX1000_.jpg"
+                alt="">
+            <p>Bad Liar<br><span>Imagine Dragons</span></p>
+        </div>
+        <div class="right-icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-ban"></i>
+        </div>
+
+    </div>
+    <div class="left-footer" id="queue-songs">
+        <div class="left-name">
+            <p class="start">14</p>
+            <img src="https://a10.gaanacdn.com/gn_img/albums/XzVWRLKdqR/zVWRl56eKd/size_xxl.jpg" alt="">
+            <p>Stranger Things<br><span>Kygo</span></p>
+        </div>
+        <div class="right-icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-ban"></i>
+        </div>
+
+    </div>
+    <div class="left-footer" id="queue-songs">
+        <div class="left-name">
+            <p class="start">15</p>
+            <img src="https://img.buzzfeed.com/buzzfeed-static/static/2019-04/22/13/asset/buzzfeed-prod-web-05/sub-buzz-24592-1555954304-1.png?downsize=900:*&output-format=auto&output-quality=auto"
+                alt="">
+            <p>Only Human<br><span>Jonas Brothers</span></p>
+        </div>
+        <div class="right-icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-ban"></i>
+        </div>
+
+    </div>
+    <div class="left-footer" id="queue-songs">
+        <div class="left-name">
+            <p class="start">16</p>
+            <img src="https://i.scdn.co/image/ab67616d0000b273bd26ede1ae69327010d49946" alt="">
+            <p>Levitating<br><span>Dua Lipa</span></p>
+        </div>
+        <div class="right-icons">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-ban"></i>
+        </div>
+
+    </div>
+
+
+</aside>
+
+
+            <div class="music-player" id="music-player-bottom">
+                <div class="left-footer">
+                    <img src="https://townsquare.media/site/812/files/2021/02/Eminem-Rap-God-music-video.jpg?w=1200" alt="">
+                    <p>Rap God<br><span>Eminem</span></p>
+                    <i class="far fa-heart"></i>
+                    <i class="fas fa-ban"></i>
+            
+                </div>
+                <div class="mid-footer">
+                    <div class="upper-portion">
+                        <i class="fas fa-random" id="least"></i>
+                        <i class="fas fa-step-backward" id="mid"></i>
+                        <i class="far fa-pause-circle" id="most"></i>
+                        <i class="fas fa-step-forward" id="mid"></i>
+                        <i class="fas fa-redo-alt" id="least"></i>
+                    </div>
+                    <div class="lower-portion">
+                        <p>0:00</p>
+                        <input type="range" name="time" id="playing-time" min="0" max="100" class="slider">
+                        <p>3:21</p>
+                    </div>
+                </div>
+            
+                <div class="right-footer">
+                    <i class="fas fa-stream"></i>
+                    <i class="fas fa-laptop-house"></i>
+                    <i class="fas fa-volume-up" id="vol"></i>
+                    <input type="range" name="time" id="playing-volume" min="0" max="100" class="slider">
+                    <i class="fas fa-expand-alt" id="expand"></i>
+            
+                </div>
+            
+            </div>
+
+
+
+
+            </div>
+
+</body>
+</html>
