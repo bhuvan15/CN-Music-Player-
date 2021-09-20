@@ -194,7 +194,6 @@ nav {
     justify-content: flex-start;
     margin: 10px;
     
-    /* border: 2px solid #fff; */
 
 }
 .released-songs img {
@@ -241,13 +240,7 @@ nav {
     font-size: 24px;
     
 }
-/* .floating-div-1 {
-    position: absolute;
-    background-color: #fff;
-    min-width: 60px;
-    min-height: 100px;
-    z-index: 2;
-} */
+
 
 
 /*Popular Artists */
@@ -821,6 +814,10 @@ nav {
     display: flex;
     align-items: center;
 }
+
+
+
+/* Floating Divs partial */
 .floating-div-1 {
     position: absolute;
     height: 150px;

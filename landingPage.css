@@ -21,6 +21,7 @@ nav {
     
 }
 
+
 /* Left side */
 .left-nav {
     margin-left: 14px;
@@ -53,7 +54,6 @@ nav {
     
 }
 .item-2 a:hover {
-   /*  text-decoration: underline; */
     opacity: 0.7;
 }
 
@@ -118,6 +118,9 @@ nav {
     cursor: pointer;
 }
 
+
+
+
 /* Main body */
 .main {
     width: 100vw;
@@ -131,16 +134,7 @@ nav {
 /* LEFT ASIDE */
 
 .aside-1 {
-/*     letter-spacing: 1.5px;
-    padding: 50px 30px;
-    min-width: 70vw;
-    overflow-y: scroll;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-    overflow-y: scroll; */
+
         letter-spacing: 1.5px;
     padding: 50px 30px;
     min-width: 70vw;
@@ -226,6 +220,9 @@ box-shadow: -4px -78px 106px 23px rgb(19, 19, 58) inset;
     opacity: 0.7;
 }
 
+
+
+
 /* Buttons */
 .buttons {
     width: 25vw;
@@ -261,6 +258,8 @@ box-shadow: -4px -78px 106px 23px rgb(19, 19, 58) inset;
 .gradient:hover , .transparent:hover {
     cursor: pointer;
 }
+
+
 
 /* Song Names */
 
@@ -323,13 +322,13 @@ box-shadow: -4px -78px 106px 23px rgb(19, 19, 58) inset;
 .icons i:hover {
     color:rgb(49, 228, 49) ;
 }
+
+
+
 /* Right Aside */
 .aside-2 {
     min-width: 30vw;
-    /* min-height: 100vh; */
-    /* background-color: #fff; */
-    /* overflow-y: scroll; */
-
+    
 }
 /* Footer */
 .music-player {
@@ -348,8 +347,7 @@ box-shadow: -4px -78px 106px 23px rgb(19, 19, 58) inset;
 .left-footer {
     height: 70px;
     display: flex;
-    align-items: center;
-    /* justify-content: space-between; */
+    align-items: center; 
     width: 30vw;
 }
 .left-footer img {
@@ -505,6 +503,9 @@ box-shadow: -4px -78px 106px 23px rgb(19, 19, 58) inset;
  }
 
 
+
+
+
 /* Media Queries */
 @media only screen and (max-width: 768px) {
     #aside-2 {
@@ -625,6 +626,7 @@ box-shadow: -4px -78px 106px 23px rgb(19, 19, 58) inset;
     cursor: pointer;
 }
 
+
 /* Queue-songs */
 #queue-songs {
     width: 100%;
@@ -707,6 +709,9 @@ box-shadow: -4px -78px 106px 23px rgb(19, 19, 58) inset;
     opacity: 1;
 }
 
+
+
+/* Floatings Div Partial  */
 .floating-div-btn {
     position: absolute;
     right: 10px;
