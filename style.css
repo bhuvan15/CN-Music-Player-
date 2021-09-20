@@ -154,18 +154,19 @@ nav {
     flex-wrap: wrap;
 }
 .playlist-img {
-    min-width: 275px;
-    min-height: 300px;
+    width: 300px;
+    height: 300px;
     transition: all 0.3s linear 0s ;
     opacity: 0.5;
     margin: 10px;
     border-radius: 5px;
 }
 .playlist-img:hover {
-    min-height: 350px;
+    width: 350px;
+    height: 350px;
     cursor: pointer;
     opacity: 1;
-    min-width: 325px;
+   
 
 }
 
@@ -715,6 +716,35 @@ nav {
    .released-songs {
        width: 70vw;
    }
+
+
+   /* playlists */
+   .playlist-img {
+       height: 140px;
+       width: 140px;
+   }
+    .playlist-img:hover {
+        height: 160px;
+        width: 160px;
+    }
+
+    /* genre music */
+    .gen-music {
+        height: 150px;
+        width: 150px;
+    }
+    .gen-music p:hover {
+        font-size: 30px;
+    }
+    #genre-3 p{
+        font-size: 18px;
+    }
+    #genre-3:hover p{
+        font-size: 30px;
+    }
+    #genre-2:hover  p{
+        font-size: 44px;
+    }
 }
 
 
