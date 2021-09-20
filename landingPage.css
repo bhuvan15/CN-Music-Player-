@@ -167,13 +167,6 @@ nav {
   width: 27vw;
   height: 55vh;
   background: url(images/EminemPoster.jfif);
-/*   background: url("https://static.independent.co.uk/2020/12/18/13/newFile-6.jpg?width=982&height=726&auto=webp&quality=75") no-repeat;
- */  /* -moz-box-shadow: inset 10px 10px 50px rgb(0, 0, 7), 28px 19px 72px 1px rgba(0,0,0,0.74);
-  -webkit-box-shadow: inset 10px 10px 50px rgb(0, 0, 8), 28px 19px 72px 1px rgba(0,0,0,0.74);
-  box-shadow: inset 10px 10px 100px 50px rgb(1, 1, 19), 28px 19px 72px 1px rgba(0,0,0,0.74);
-  box-shadow: 28px 19px 72px 1px rgba(0,0,0,0.74); */
-/* -webkit-box-shadow: 28px 19px 72px 1px rgba(0,0,0,0.74);
--moz-box-shadow: 28px 19px 72px 1px rgba(0,0,0,0.74); */
 box-shadow: -4px -78px 106px 23px rgb(19, 19, 58) inset;
 -webkit-box-shadow: -4px -78px 106px 23px rgb(19, 19, 58) inset;
 -moz-box-shadow: -4px -78px 106px 23px rgb(19, 19, 58)inset;
